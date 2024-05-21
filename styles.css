@@ -33,6 +33,8 @@
     border: 1px solid white;
 }
 
+
+
 /**box 2 **/
 
 .add-first{
@@ -167,7 +169,7 @@ span{
  
 /**Panel**/
 
-.panel{
+/* .panel{
     height: 40px;
     width: 100%;
     background-color: #222f3d;
@@ -203,7 +205,60 @@ span{
     width:130px;
     font-size: 0.9rem;
     font-weight: 700;
+} */
+
+/* Nav panel section */
+
+.nav-panel{
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+.nav-container{
+    align-items: center;
+    width: 99%;
+    height: 100%;
+    margin: auto;
+}
+
+.nav-container ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    list-style: none;
+}
+
+.nav-container ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 1 rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-slider{
+    font-size: 1.2rem;
+}
+
+/* .nav-slider{
+    width: 60px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+} */
 
 /**Hero Section**/
 
